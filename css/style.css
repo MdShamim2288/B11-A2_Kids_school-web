@@ -48,6 +48,9 @@ nav{
 .Sky-Blue{
   color: #01ACFD;
 }
+.manu-src{
+ display: none ;
+}
 .btn-coontact{
   width: 197px;
   height: 50px;
@@ -276,11 +279,17 @@ box-shadow: 0 0 0 1px #DEF5FF;
 .color-title{
   color: white;
 }
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 425px){
   body{
-    width: 375px;
+    background-color: #8700FF;
   }
   /* nav style  */
+  .nav{
+    display: flex;
+    border: 1px solid #FEA301;
+    width: 425px;
+    height: 70px;
+  }
   .nav-title{
     display: none;
   }
@@ -290,21 +299,57 @@ box-shadow: 0 0 0 1px #DEF5FF;
   .nav-title {
     display: none;
   }
-  .menu-img{
-    
+  .manu-src{
+    display: block;
   }
  .nav-disscirpston{
   display: none;
+  flex-direction: column-reverse;
+  padding: 20px;
  }
  /* banner styles */
- .banner, .content-card{
+ .banner{
+  display: flex;
   flex-direction: column-reverse;
+  padding: 20px;
+  width: 357px;
+  height: 725px;
+ }
+ .content-card{
+  display: flex;
+  flex-direction: column-reverse;
+ 
+  padding: 20px;
+ }
+ .src-hero{
+  width: 320px;
+  height: 413px;
  }
  /* card styles */
+ .mani{
+  max-width: 390px;
+  max-height: 1913px;
+ }
  .content-card{
-
+  display: flex;
+  flex-direction: column;
+ }
+ .card-home{
+  flex-direction: column;
+  padding: 20px;
  }
  /* story stiles */
+ .story-box-1{
+  display: none;
+ }
+ .content-img{
+
+ }
+ .Find-out, .content-img{
+  display: grid;
+  grid-template-columns: max-content;
+  gap: 50px;
+ }
  /* footer style */
  .content-fotr{
  
