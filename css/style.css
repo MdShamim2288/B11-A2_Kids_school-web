@@ -10,6 +10,7 @@
 body{
   background-color: #F5F5F5;
   margin: 0 auto;
+  width: 100%;
 }
 /* share style  */ 
 
@@ -26,23 +27,25 @@ nav{
   padding: 20px 0; 
 }
 .nav{
-  max-width: 1140px;
+  max-width: 90%;
   height: 62px;
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
 }
 .nav-disscirpston{
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
-  width: 387px;
+  width: 40%;
   height: 30px;
+  
 }
 .nav-disscirpston a{
+  justify-content: space-evenly;
   text-decoration: none;
 }
 .src-logo{
-  width: 62px;
+  width: 100%;
   height: 50px;
 }
 .Sky-Blue{
@@ -52,7 +55,7 @@ nav{
  display: none ;
 }
 .btn-coontact{
-  width: 197px;
+  width: 12.3rem;
   height: 50px;
   margin: 6px 1px 6px 0;
   border-radius: 12px;
@@ -66,11 +69,11 @@ nav{
 .banner{
   justify-content: center;
   align-items: center;
-  width: 1159px;
+  width: 100%;
   height: 575px;
   gap: 50px;
   margin: 0 auto;
-  }
+}
 .Empowering{
   justify-content: left;
   align-items: center;
@@ -220,7 +223,7 @@ box-shadow: 0 0 0 1px #DEF5FF;
   padding: 10px 20px;
   border-radius: 15px;
   border: none;
-}
+} 
 .color-btn{
   background-color: #95B226;
 }
@@ -279,15 +282,16 @@ box-shadow: 0 0 0 1px #DEF5FF;
 .color-title{
   color: white;
 }
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 360px){
   body{
-    background-color: #8700FF;
+    width: 100%;
+    
   }
   /* nav style  */
   .nav{
     display: flex;
-    border: 1px solid #FEA301;
-    width: 425px;
+    border-bottom: 1px solid #FEA301;
+    width: 90%;
     height: 70px;
   }
   .nav-title{
@@ -303,63 +307,89 @@ box-shadow: 0 0 0 1px #DEF5FF;
     display: block;
   }
  .nav-disscirpston{
-  display: none;
-  flex-direction: column-reverse;
-  padding: 20px;
- }
+   display: none;
+   flex-direction: column-reverse;
+   padding: 20px;
+  }
  /* banner styles */
  .banner{
-  display: flex;
-  flex-direction: column-reverse;
-  padding: 20px;
-  width: 357px;
-  height: 725px;
- }
+   display: flex;
+   flex-direction: column-reverse;
+   padding: 20px;
+   width: 100%;
+   height: 725px;
+  }
  .content-card{
-  display: flex;
-  flex-direction: column-reverse;
- 
-  padding: 20px;
- }
+   display: flex;
+   flex-direction: column-reverse;
+   padding: 20px;
+   width: 100%;
+  }
+ .Empowering{
+   text-align: center;
+   width: 100%;
+  }
+ .banner-title{
+   width: 90%;
+   margin: 0 auto;
+   font-size: 2.2rem;
+  }
+ .courage-title{
+   width: 90%;
+   margin: 20px auto 50px auto;
+   font-size: 1.5rem;
+  }
  .src-hero{
-  width: 320px;
-  height: 413px;
+   margin: 0 auto;
+   width: 90%;
+   height: 100%;
+   padding-right: 2.2rem;
+ }
+ .hero-img{
+   width: 100%;
+   height: 100%;
+   margin: 0 auto;
  }
  /* card styles */
  .mani{
-  max-width: 390px;
-  max-height: 1913px;
+   
+   max-width: 100%;
+   max-height: 100%;
+   margin-top: 48rem ;
+   /* gap: 2rem; */
+   
  }
  .content-card{
-  display: flex;
-  flex-direction: column;
+   display: flex;
+   flex-direction: column;
+   margin-right: 4rem;
  }
  .card-home{
-  flex-direction: column;
-  padding: 20px;
+  
+   flex-direction: column;
+   margin-right: 2.5rem;
+   padding: 20px;
  }
  /* story stiles */
  .story-box-1{
-  display: none;
+   display: none;
  }
  .content-img{
-
  }
  .Find-out, .content-img{
-  display: grid;
-  grid-template-columns: max-content;
-  gap: 50px;
+   display: grid;
+   grid-template-columns: max-content;
+   gap: 50px;
  }
  /* footer style */
  .content-fotr{
- 
-  max-width: 370px;
+   max-width: 370px;
  }
  .content-fotr-title{
-  flex-direction: column;
-  padding: 0 20px;
+   flex-direction: column;
+   padding: 0 20px;
  }
  .fotr-pare{
-  max-width: 290px;
+   max-width: 290px;
  }
 }
